@@ -1,0 +1,32 @@
+{
+  "name": "devtoolboxuk/logging",
+  "description": "Logging",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "": "library/",
+      "devtoolboxuk\\logging\\": "library/"
+    },
+    "classmap": [
+      "library"
+    ]
+  },
+  "authors": [
+    {
+      "name": "Rob Wilson",
+      "email": "rob@dev-toolbox.co.uk"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "doctrine/dbal": "2.5.13",
+    "monolog/monolog": "*"
+  },
+  "scripts": {
+    "test": "./vendor/bin/phpunit"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "*"
+  }
+}
